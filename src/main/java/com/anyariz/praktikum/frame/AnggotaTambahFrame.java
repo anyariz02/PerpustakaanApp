@@ -197,7 +197,7 @@ public final class AnggotaTambahFrame extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
         
-        eId.setText(makeId());
+        eId.setText(anggota.getId());
         eId.setEnabled(false);
         eNamaAnggota.requestFocus();
         eNamaAnggota.setText(anggota.getNamaAnggota());
